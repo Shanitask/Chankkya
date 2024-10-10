@@ -938,3 +938,18 @@
     width: 200px;
     height: auto;
   }
+
+  /* logo scrooll */
+  /* Initial logo styling */
+#navbar-logo img {
+    transition: all 0.3s ease;
+}
+
+/* Logo when the user scrolls */
+.scrolled #default-logo {
+    display: none;
+}
+
+.scrolled #scrolled-logo {
+    display: block!important;
+}
